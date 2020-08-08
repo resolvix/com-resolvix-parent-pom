@@ -23,6 +23,7 @@
 
         <!-- Project dependency versions -->
 
+	<slf4j.version>1.7.30</slf4j.version>
         <guava.version>27.0.1-jre</guava.version>
 
         <!-- Unit and integration test dependency versions -->
@@ -61,6 +62,18 @@
             </dependency>
 
             <!-- Project dependencies -->
+
+	    <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>	
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j13</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.google.guava</groupId>
