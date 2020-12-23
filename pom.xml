@@ -38,6 +38,17 @@
         <tyrex-tyrex.version>1.0.1</tyrex-tyrex.version>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>${release-repository.id}</id>
+            <url>${release-repository.url}</url>
+        </repository>
+        <snapshotRepository>
+            <id>${snapshot-repository.id}</id>
+            <url>${snapshot-repository.url}</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
 
