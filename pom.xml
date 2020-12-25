@@ -211,5 +211,6 @@
       <connection>scm:git:git@github.com:resolvix/com-resolvix-parent-pom.git</connection>
       <url>scm:git:git@github.com:resolvix/com-resolvix-parent-pom.git</url>
       <developerConnection>scm:git:git@github.com:resolvix/com-resolvix-parent-pom.git</developerConnection>
+      <tag>HEAD</tag>
     </scm>
 </project>
