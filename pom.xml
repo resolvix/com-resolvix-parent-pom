@@ -4,7 +4,7 @@
 
     <groupId>com.resolvix</groupId>
     <artifactId>com-resolvix-parent-pom</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -210,6 +210,6 @@
       <connection>scm:git:git@github.com:resolvix/com-resolvix-parent-pom.git</connection>
       <url>scm:git:git@github.com:resolvix/com-resolvix-parent-pom.git</url>
       <developerConnection>scm:git:git@github.com:resolvix/com-resolvix-parent-pom.git</developerConnection>
-      <tag>com-resolvix-parent-pom-0.0.2</tag>
+      <tag>HEAD</tag>
     </scm>
 </project>
