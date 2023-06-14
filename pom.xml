@@ -23,7 +23,7 @@
 
         <!-- Project dependency versions -->
 
-        <guava.version>29.0-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
 
         <!-- Unit and integration test dependency versions -->
 
